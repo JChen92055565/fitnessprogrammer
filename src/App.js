@@ -1,23 +1,45 @@
-import logo from './logo.svg';
 import './App.css';
+import Spreadsheet from "react-spreadsheet";
+import Sheet from './Sheet'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className = "Monday">
+      <h4>Monday</h4>
+      <Sheet/>
+      </div>
+
+      <div className = "Tuesday">
+      <h4>Tuesday</h4>
+      <Sheet/>
+      </div>
+
+      <div className = "Wednesday">
+      <h4>Wednesday</h4>
+      <Sheet/>
+      </div>
+
+      <div className = "Thursday">
+      <h4>Thursday</h4>
+      <Sheet/>
+      </div>
+
+      <div className = "Friday">
+      <h4>Friday</h4>
+      <Sheet/>
+      </div>
+
+      <div className = "Saturday">
+      <h4>Saturday</h4>
+      <Sheet/>
+      </div>
+
+      <div className = "Sunday">
+      <h4>Sunday</h4>
+      <Sheet/>
+      </div>
+      
     </div>
   );
 }
